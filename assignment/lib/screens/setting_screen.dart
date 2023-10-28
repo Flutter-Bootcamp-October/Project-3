@@ -1,7 +1,7 @@
 import 'package:assignment/colors/app_color.dart';
 import 'package:assignment/screens/account_setting.dart';
 import 'package:assignment/screens/app_setting_widget.dart';
-import 'package:assignment/widgets/expected_widget.dart';
+import 'package:assignment/screens/expected_widget.dart';
 import 'package:flutter/material.dart';
 
 class SettingScreen extends StatelessWidget {
