@@ -1,0 +1,17 @@
+List dataMovies = [
+  {'image': 'assets/movies/R (1).jpeg', 'name': 'Aladdin'},
+  {'image': 'assets/movies/R.jpg', 'name': 'Monster'},
+  {'image': 'assets/movies/R (2).jpg', 'name': 'Spaiderman home'},
+  {'image': 'assets/movies/R (3).jpg', 'name': 'Assassin'},
+  {'image': 'assets/movies/R (4).jpg', 'name': 'League'},
+  {'image': 'assets/movies/R (5).jpg', 'name': 'Lo and Behold'},
+  {'image': 'assets/movies/R (6).jpg', 'name': 'Us'},
+  {'image': 'assets/movies/R (6).jpeg', 'name': 'Martian'},
+  {'image': 'assets/movies/R (8).jpeg', 'name': 'Outthalnd'},
+  {'image': 'assets/movies/R (9).jpeg', 'name': 'Root'},
+  {'image': 'assets/movies/R (10).jpeg', 'name': 'Battelship'},
+  {'image': 'assets/movies/R (11).jpeg', 'name': 'Noah'},
+  {'image': 'assets/movies/R (12).jpeg', 'name': 'John wick 2'},
+  {'image': 'assets/movies/R (13).jpeg', 'name': 'Expendable'},
+  {'image': 'assets/movies/R (14).jpeg', 'name': 'Spaiderman'},
+];
