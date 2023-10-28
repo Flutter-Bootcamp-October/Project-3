@@ -1,24 +1,38 @@
 # Project-3
 
-## Details:
-Implement an application of your choice at least 6 screens using Flutter.
+## Subbmesion Ruba Al Hilal:
 
-## Delivery Requirements:
-1. **Project Structure:** Create a new Flutter project and organize its structure appropriately. Set up the necessary folders and files, and ensure a clean and organized project layout.
-2. **Clean Code:** Write clear and well-organized code. Use meaningful variable and function names, Well-structured and easily maintainable code.
-3. **README.md File:** Ensure that README file contains the screenshots of your application.
+Page 1 - HomeScreen:
 
+![homeScreen](https://github.com/RubaAlHilal/Project-3/assets/73358612/261810fc-822c-4875-b367-ac21c8b1487c)
 
-## Submission:
-1. Flutter Project:
-   - Submit the complete Flutter project folder, including all necessary files (screens and components).
-2. Screenshots of your app.
-3. GitHub Submission:
-   - Create a Fork from the project’s GitHub repository.
-   - Create a new branch with your name.
-   - Commit frequently with descriptive messages to show your progress.
-   - Finally, create a Pull Request to the project’s original repository.
+--------------------------------------------------------------------------------------------------------------------
 
+Page 2 - OfferScreen:
 
-## Deadline: 
-29/10/2023  9:59 AM
+![offerScreen](https://github.com/RubaAlHilal/Project-3/assets/73358612/e0e73dc8-995b-449a-8e4b-527f74abe776)
+
+--------------------------------------------------------------------------------------------------------------------
+
+Page 3 - DetailsScreen:
+
+![detalesScreen](https://github.com/RubaAlHilal/Project-3/assets/73358612/74745596-e12e-49b2-bcff-6b8518a18edb)
+--------------------------------------------------------------------------------------------------------------------
+
+Page 4 - StoresScreen:
+
+![storesScreen](https://github.com/RubaAlHilal/Project-3/assets/73358612/8daf7d09-b692-4917-8d7d-cd755c394a75)
+
+--------------------------------------------------------------------------------------------------------------------
+
+Page 5 - MenuScreen:
+
+![menuScreen](https://github.com/RubaAlHilal/Project-3/assets/73358612/8c97c97a-44d6-41ad-88a2-79f448fc1a54)
+
+--------------------------------------------------------------------------------------------------------------------
+
+Page 6 - ProfileScreen:
+
+![profileScreen](https://github.com/RubaAlHilal/Project-3/assets/73358612/dcca8be7-4e9f-4a7b-9b4d-acdcc5f01e37)
+
+--------------------------------------------------------------------------------------------------------------------
