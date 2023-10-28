@@ -1,7 +1,7 @@
 import 'package:assignment/colors/app_color.dart';
-import 'package:assignment/screens/account_setting.dart';
-import 'package:assignment/screens/app_setting_widget.dart';
-import 'package:assignment/screens/expected_widget.dart';
+import 'package:assignment/screens/account_setting_tab.dart';
+import 'package:assignment/screens/app_setting_tab.dart';
+import 'package:assignment/screens/expected_tab.dart';
 import 'package:flutter/material.dart';
 
 class SettingScreen extends StatelessWidget {
@@ -27,9 +27,9 @@ class SettingScreen extends StatelessWidget {
         ),
         backgroundColor: black,
         body: const TabBarView(children: [
-          ExpectedWidget(),
-          AppSettingWidget(),
-          AccountSettinge(),
+          ExpectedTab(),
+          AppSettingTab(),
+          AccountSettingeTab(),
         ]),
       ),
     );

@@ -4,6 +4,7 @@ import 'package:assignment/colors/text_font.dart';
 import 'package:assignment/methods/search_app_bar.dart';
 import 'package:assignment/widgets/best_movie.dart';
 import 'package:assignment/widgets/best_series.dart';
+import 'package:assignment/widgets/community_activity.dart';
 import 'package:assignment/widgets/container_search_widget.dart';
 import 'package:assignment/widgets/populer_series.dart';
 import 'package:assignment/widgets/title_widget.dart';
@@ -65,41 +66,7 @@ class SearchScreen extends StatelessWidget {
                   style: whiteBold18,
                 ),
                 height12,
-                Container(
-                  height: 130,
-                  width: MediaQuery.of(context).size.width * 0.9,
-                  decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10),
-                      gradient: const LinearGradient(
-                          colors: [Colors.purple, Colors.red])),
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      const Text("البحث عن أصدقاء للمتابعة",
-                          style: TextStyle(
-                              color: white,
-                              fontSize: 18,
-                              fontWeight: FontWeight.w600)),
-                      Container(
-                        width: 190,
-                        decoration: BoxDecoration(
-                            borderRadius:
-                                const BorderRadiusDirectional.horizontal(
-                                    start: Radius.circular(20),
-                                    end: Radius.circular(20)),
-                            border: Border.all(color: white, width: 2)),
-                        child: const Center(
-                            child: Text(
-                          'البحث عن مستخدمين',
-                          style: TextStyle(
-                              color: white,
-                              fontSize: 18,
-                              fontWeight: FontWeight.w600),
-                        )),
-                      )
-                    ],
-                  ),
-                ),
+                const CommunityActivity(),
                 height24
               ],
             ),

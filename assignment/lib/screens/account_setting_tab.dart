@@ -3,16 +3,16 @@ import 'package:assignment/colors/sizedd.dart';
 import 'package:assignment/colors/text_font.dart';
 import 'package:flutter/material.dart';
 
-class AccountSettinge extends StatefulWidget {
-  const AccountSettinge({
+class AccountSettingeTab extends StatefulWidget {
+  const AccountSettingeTab({
     super.key,
   });
 
   @override
-  State<AccountSettinge> createState() => _AccountSettingeState();
+  State<AccountSettingeTab> createState() => _AccountSettingeTabState();
 }
 
-class _AccountSettingeState extends State<AccountSettinge> {
+class _AccountSettingeTabState extends State<AccountSettingeTab> {
   bool light = true;
 
   @override

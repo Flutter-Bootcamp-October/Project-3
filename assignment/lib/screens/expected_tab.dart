@@ -3,16 +3,16 @@ import 'package:assignment/colors/sizedd.dart';
 import 'package:assignment/colors/text_font.dart';
 import 'package:flutter/material.dart';
 
-class ExpectedWidget extends StatefulWidget {
-  const ExpectedWidget({
+class ExpectedTab extends StatefulWidget {
+  const ExpectedTab({
     super.key,
   });
 
   @override
-  State<ExpectedWidget> createState() => _ExpectedWidgetState();
+  State<ExpectedTab> createState() => _ExpectedTabState();
 }
 
-class _ExpectedWidgetState extends State<ExpectedWidget> {
+class _ExpectedTabState extends State<ExpectedTab> {
   bool light = true;
 
   @override

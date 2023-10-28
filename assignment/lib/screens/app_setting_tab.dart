@@ -5,20 +5,20 @@ import 'package:assignment/widgets/app_text.dart';
 import 'package:assignment/widgets/radio_select.dart';
 import 'package:flutter/material.dart';
 
-class AppSettingWidget extends StatefulWidget {
-  const AppSettingWidget({
+class AppSettingTab extends StatefulWidget {
+  const AppSettingTab({
     super.key,
   });
 
   @override
-  State<AppSettingWidget> createState() => _AppSettingWidgetState();
+  State<AppSettingTab> createState() => _AppSettingTabState();
 }
 
 bool light = true;
 
 String? selected;
 
-class _AppSettingWidgetState extends State<AppSettingWidget> {
+class _AppSettingTabState extends State<AppSettingTab> {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
