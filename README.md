@@ -18,6 +18,39 @@ Implement an application of your choice at least 6 screens using Flutter.
    - Create a new branch with your name.
    - Commit frequently with descriptive messages to show your progress.
    - Finally, create a Pull Request to the project’s original repository.
+  
+   - ##
+  
+<img width="290" alt="chatpage" src="https://github.com/badrsh980/Project-3/assets/60719639/c0c25451-db3f-45b2-b343-4ae6bfaf56bb">
+chat page
+
+<img width="290" alt="chatmessagepage" src="https://github.com/badrsh980/Project-3/assets/60719639/613643c1-7d2a-468e-a2e9-188e529c26df">
+chat message page
+
+<img width="289" alt="communitypage" src="https://github.com/badrsh980/Project-3/assets/60719639/c4aa59ca-74de-4e9a-848d-922d6540ea48">
+community page
+
+
+
+<img width="290" alt="updatepage" src="https://github.com/badrsh980/Project-3/assets/60719639/ef04b380-400a-453d-91a8-40b46f9e8fd9">
+update page
+
+
+<img width="290" alt="callspage" src="https://github.com/badrsh980/Project-3/assets/60719639/89fd08b8-d51a-46d0-855a-c6f7104247a9">
+calls page
+
+<img width="293" alt="SettingsPage" src="https://github.com/badrsh980/Project-3/assets/60719639/889af6c8-dcea-4743-b517-73ff6e49eb11">
+
+Settings Page
+
+
+<img width="103" alt="code" src="https://github.com/badrsh980/Project-3/assets/60719639/6a43a307-e695-4e2b-8cf6-92371cd19096">
+
+Code order
+
+
+
+
 
 
 ## Deadline: 
