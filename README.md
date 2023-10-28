@@ -43,25 +43,3 @@ Simulation of the design of the TV Time program.
 
 
 
-
-
-
-
-
-
-
-
-
-## Submission:
-1. Flutter Project:
-   - Submit the complete Flutter project folder, including all necessary files (screens and components).
-2. Screenshots of your app.
-3. GitHub Submission:
-   - Create a Fork from the project’s GitHub repository.
-   - Create a new branch with your name.
-   - Commit frequently with descriptive messages to show your progress.
-   - Finally, create a Pull Request to the project’s original repository.
-
-
-## Deadline: 
-29/10/2023  9:59 AM
