@@ -1,0 +1,87 @@
+name: wala_plus
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+  - assets/img/chick_cover.jpeg
+  - assets/img/seren_cover.png
+  - assets/img/doka_cover.png
+  - assets/img/drsaeed_cover.png
+  - assets/img/tikpadel_cover.png
+  - assets/img/drsaeed_cover.png
+  - assets/img/river_cover.jpeg
+  - assets/img/zaatar_zeit_cover.jpeg
+  - assets/img/dipndip_cover.jpeg
+  - assets/img/back_arrow.png
+  - assets/img/braira_hotel.jpeg
+  - assets/img/serene_roastery.jpeg
+  - assets/img/rivers_world.jpeg
+  - assets/img/Chick_N_Bun.jpeg
+  - assets/img/doka.png
+  - assets/img/zaatar-wzeit.jpeg
+  - assets/img/dipndip.png
+  - assets/img/drSaeed_medical.jpeg
+  - assets/img/tik_padel.jpeg
+  - assets/img/home.png
+  - assets/img/gym.png
+  - assets/img/healthCare.png
+  - assets/img/tamkeen.jpg
+  - assets/img/dolce.jpg
+  - assets/img/yelo.jpg
+  - assets/img/dolce_ragusa_logo.jpeg
+  - assets/img/tamkeen_logo.png
+  - assets/img/yelo_logo.png
+  - assets/img/labeaute.jpg
+  - assets/img/labeaute_logo.JPG
+  - assets/img/fitness_time_logo.jpeg
+  - assets/img/fitness_time.jpg
+  - assets/img/daily_mealz_logo.PNG
+  - assets/img/daily_mealz.jpg
+  - assets/img/b-fit.jpeg
+  - assets/img/more.png
+  - assets/img/entertaainment.png
+  - assets/img/shopping.jpeg
+  - assets/img/gym.png
+  - assets/img/bfit.jpg
+  - assets/img/resttaurants.png
+  - assets/img/aromatic.JPG
+  - assets/img/barira.jpg
+  - assets/img/coffee.png
+  - assets/img/saudi_bar_association.png
+  - assets/img/jewelry.png
+  - assets/img/gift.png
+  - assets/img/service.png
+  - assets/img/perfumes.png
+  - assets/img/cashback.png
+  - assets/img/education.png
+  - assets/img/car.png
+  - assets/img/entertaainment.png
+  - assets/img/sweet.png
+  - assets/img/drink.png
+  - assets/img/shop_online.png
+  - assets/
+  - lib/icons/
+  fonts:
+    - family: Noto Sans Arabic
+      fonts:
+        - asset: font/NotoSansArabic-VariableFont_wdth,wght.ttf
+       
+          
+  
+
+
+  uses-material-design: true
