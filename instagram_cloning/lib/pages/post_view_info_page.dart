@@ -7,8 +7,8 @@ import 'package:instagram_cloning/widgets/home_widget/username_post.dart';
 import 'package:instagram_cloning/widgets/search_widget/app_bar_post_view_info.dart';
 import 'package:instagram_cloning/widgets/search_widget/follow_container.dart';
 
-class PostViewInfo extends StatelessWidget {
-  const PostViewInfo({super.key, required this.post});
+class PostViewInfoPage extends StatelessWidget {
+  const PostViewInfoPage({super.key, required this.post});
 
   final Post post;
 
