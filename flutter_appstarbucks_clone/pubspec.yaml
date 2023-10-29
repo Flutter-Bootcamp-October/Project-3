@@ -1,0 +1,32 @@
+name: flutter_appstarbucks_clone
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - lib/assets/images/starbucks_logo.png
+  - lib\assets\images\home.star.png
+  - lib\assets\images\star1.png
+  - lib\assets\images\cupstar.png
+  - lib\assets\images\stars.jpeg
+  - lib\assets\images\memberlevel.jpeg
+  - lib\assets\images\scanstar.png
+  - lib\assets\images\scan.png
+  - lib\assets\images\stores.jpeg
+  - lib\assets\images\date1.png
+  - lib\assets\images\data2.png
+  - lib\assets\images\data3.png
