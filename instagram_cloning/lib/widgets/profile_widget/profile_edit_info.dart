@@ -50,8 +50,10 @@ class ProfileEditInfo extends StatelessWidget {
                 "Name",
                 style: TextStyle(fontWeight: FontWeight.w500),
               ),
-              width40,
-              Text(currentUser.name)
+              Padding(
+                padding: const EdgeInsets.only(left: 50),
+                child: Text(currentUser.name),
+              )
             ],
           ),
         ),
@@ -65,8 +67,10 @@ class ProfileEditInfo extends StatelessWidget {
                 "Username",
                 style: TextStyle(fontWeight: FontWeight.w500),
               ),
-              width40,
-              Text(currentUser.userName)
+              Padding(
+                padding: const EdgeInsets.only(left: 25),
+                child: Text(currentUser.userName),
+              )
             ],
           ),
         ),
@@ -80,8 +84,10 @@ class ProfileEditInfo extends StatelessWidget {
                 "Pronouns",
                 style: TextStyle(fontWeight: FontWeight.w500),
               ),
-              width40,
-              Text(currentUser.pronouns)
+              Padding(
+                padding: const EdgeInsets.only(left: 50),
+                child: Text(currentUser.pronouns),
+              )
             ],
           ),
         ),
@@ -95,8 +101,10 @@ class ProfileEditInfo extends StatelessWidget {
                 "Bio",
                 style: TextStyle(fontWeight: FontWeight.w500),
               ),
-              width40,
-              Text(currentUser.bio)
+              Padding(
+                padding: const EdgeInsets.only(left: 70),
+                child: Text(currentUser.bio),
+              )
             ],
           ),
         ),
@@ -110,7 +118,6 @@ class ProfileEditInfo extends StatelessWidget {
                 "Links",
                 style: TextStyle(fontWeight: FontWeight.w500),
               ),
-              width40,
               Text(currentUser.links)
             ],
           ),
@@ -126,8 +133,10 @@ class ProfileEditInfo extends StatelessWidget {
                 "Gender",
                 style: TextStyle(fontWeight: FontWeight.w500),
               ),
-              width14,
-              Text(currentUser.gender)
+              Padding(
+                padding: const EdgeInsets.only(left: 40),
+                child: Text(currentUser.gender),
+              )
             ],
           ),
         ),
@@ -140,19 +149,19 @@ class ProfileEditInfo extends StatelessWidget {
             children: [
               Text(
                 "Switch to professional account",
-                style: TextStyle(color: blue),
+                style: TextStyle(color: blue, fontWeight: FontWeight.w600),
               ),
               Divider(),
               height12,
               Text(
                 "Personal information setting",
-                style: TextStyle(color: blue),
+                style: TextStyle(color: blue, fontWeight: FontWeight.w600),
               ),
               Divider(),
               height12,
               Text(
                 "Sign up for Meta Verified",
-                style: TextStyle(color: blue),
+                style: TextStyle(color: blue, fontWeight: FontWeight.w600),
               )
             ],
           ),
