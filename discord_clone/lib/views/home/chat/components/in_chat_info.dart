@@ -2,6 +2,7 @@ import 'package:discord_clone/views/home/home_exports.dart';
 import 'package:flutter/material.dart';
 
 import '../../widgets/user_avatar_with_status.dart';
+import 'in_chat_info_icons.dart';
 
 class InChatInfo extends StatelessWidget {
   const InChatInfo({Key? key}) : super(key: key);
@@ -143,36 +144,17 @@ class InChatInfo extends StatelessWidget {
       ),
     );
   }
-}
 
-getIndex(String currentUser) {
-  int index = 0;
-  for (int i = 0; i < listOfFriends.length; i++) {
-    if (listOfFriends[i].name.contains(currentUser)) {
-      index = i;
+  getIndex(String currentUser) {
+    int index = 0;
+    for (int i = 0; i < listOfFriends.length; i++) {
+      if (listOfFriends[i].name.contains(currentUser)) {
+        index = i;
+      }
+      if (listOfFriends[i].avatar.contains(currentUser)) {
+        index = i;
+      }
     }
-    if (listOfFriends[i].avatar.contains(currentUser)) {
-      index = i;
-    }
-  }
-  return index;
-}
-
-class InChatInfoIcons extends StatelessWidget {
-  const InChatInfoIcons({
-    super.key,
-    required this.iconData,
-    required this.content,
-  });
-  final IconData iconData;
-  final String content;
-  @override
-  Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Icon(iconData, color: greyTextColor),
-        Text(content, style: const TextStyle(color: greyTextColor))
-      ],
-    );
+    return index;
   }
 }

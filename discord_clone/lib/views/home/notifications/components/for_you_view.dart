@@ -91,20 +91,6 @@ class ForYouView extends StatelessWidget {
                                       ],
                                     ),
                                   )
-                                  // Expanded(
-                                  //   child: Text(
-                                  //     listOfFriends[index].name,
-                                  //   ),
-                                  // ),
-                                  // Expanded(
-                                  //   child: Text(
-                                  //     listOfFriends[index].activity,
-                                  //     maxLines: 1,
-                                  //     style: const TextStyle(
-                                  //       overflow: TextOverflow.ellipsis,
-                                  //     ),
-                                  //   ),
-                                  // ),
                                 ],
                               ),
                             )

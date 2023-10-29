@@ -23,7 +23,8 @@ class NotificationsScreen extends StatelessWidget {
                     height: 32,
                     width: 60,
                     decoration: BoxDecoration(
-                        color: darkTextColor, borderRadius: BorderRadius.circular(30)),
+                        color: darkTextColor,
+                        borderRadius: BorderRadius.circular(30)),
                     child: const Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
@@ -47,7 +48,6 @@ class NotificationsScreen extends StatelessWidget {
         width: context.getWidthSize(),
         child: const Column(
           children: [
-            //TODO: try on tab view/view screen if time allows
             SlidingSelector(
                 firstSide: ForYouView(),
                 secondSide: MentionsView(),

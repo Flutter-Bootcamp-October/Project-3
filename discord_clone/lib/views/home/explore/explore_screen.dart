@@ -25,7 +25,6 @@ void exploreBottomSheet(BuildContext context) {
               thickness: 0.05,
               color: greyTextColor,
             ),
-            //TODO: MAKE IT CUSTOM
             Align(
               alignment: Alignment.centerLeft,
               child: Padding(
