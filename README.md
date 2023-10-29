@@ -42,3 +42,8 @@ there are in app bar three button
 
 ![Screenshot 2023-10-29 031540](https://github.com/rahafwmaq/Project-3/assets/86989761/e7965625-07cf-4525-b577-2f5b64f7344a)
 
+I have add Edit Profile page in profile page => edit_profile_page.dart
+
+![edit](https://github.com/rahafwmaq/Project-3/assets/86989761/f4b7c157-839b-4ccb-81c9-be8d30f66e9c)
+
+
