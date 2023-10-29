@@ -3,9 +3,10 @@ import 'package:instagram_cloning/constants/const.dart';
 import 'package:instagram_cloning/widgets/profile_widget/app_bar_profile.dart';
 import 'package:instagram_cloning/widgets/profile_widget/highlights.dart';
 import 'package:instagram_cloning/widgets/profile_widget/option_grid.dart';
-import 'package:instagram_cloning/widgets/profile_widget/profile_edit_or_share.dart';
+import 'package:instagram_cloning/widgets/profile_widget/profile_edit.dart';
 import 'package:instagram_cloning/widgets/profile_widget/profile_firs_row.dart';
 import 'package:instagram_cloning/widgets/profile_widget/profile_gridbiew.dart';
+import 'package:instagram_cloning/widgets/profile_widget/profile_share.dart';
 import 'package:instagram_cloning/widgets/profile_widget/static_info.dart';
 import 'package:instagram_cloning/widgets/profile_widget/user_info.dart';
 
@@ -36,14 +37,7 @@ class _ProfilePageState extends State<ProfilePage> {
                 padding: EdgeInsets.symmetric(horizontal: 30),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    ProfileEditOrShare(
-                      editOrShare: "Edit Profil",
-                    ),
-                    ProfileEditOrShare(
-                      editOrShare: "Share Profile",
-                    ),
-                  ],
+                  children: [ProfileEditContainer(), ProfileShareContainer()],
                 ),
               ),
               StaticInfo(),
