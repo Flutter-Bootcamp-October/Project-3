@@ -1,0 +1,63 @@
+name: the_chefz
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets\images\mcdonalds.png
+    - assets\images\Albaik_logo.png
+    - assets\images\MaMaNoura.png
+    - assets\images\DunkinDonuts.png
+    - assets\images\baskinR.png
+    - assets\images\Domino'sPizza.png
+    - assets\images\mrbeastBurger.png
+    - assets\images\HerfyFood.png
+    - assets\images\banner1.jpg
+    - assets\images\banner2.jpg
+    - assets\images\banner3.jpg
+    - assets\images\filter.png
+    - assets\images\saudi.png
+    - assets\images\AlBAIK.jpg
+    - assets\images\dawar_alsaada_logo.jpeg
+    - assets\images\dawar_alsaada.jpg
+    - assets\images\easy_bakery_logo.jpg
+    - assets\images\easy_bakery.jpg
+    - assets\images\points.png
+    - assets\images\wallet.png
+    - assets\images\BunChocolate.jpg
+    - assets\images\ChocolateWheel.jpg
+    - assets\images\AlmondCroissant.jpg
+    - assets\images\TahiniCheesePie.jpg
+    - assets\images\CheeseEggPie.jpg
+    - assets\images\FreshChickenPie.jpg
+    - assets\images\BBQBAIK.jpg
+    - assets\images\CocktailSauce.jpg
+    - assets\images\CornCup.jpg
+    - assets\images\contactUs.png
+    - assets\images\credit-card.png
+    - assets\images\link.png
+    - assets\images\heart.png
+    - assets\images\coffee.png
+    - assets\images\burgerGathering.png
+    - assets\images\all.png
+    - assets\images\healthy.png
+    - assets\images\promoted.jpg
+    - assets\images\DeliveryOfferImage.png
+    - assets\images\FAQ.png
+    - assets\images\icon1_order.png
+    - assets\images\icon2_order.png
+
