@@ -1,0 +1,41 @@
+import 'package:flutter/material.dart';
+
+const SizedBox width8 = SizedBox(width: 8);
+const SizedBox width10 = SizedBox(width: 10);
+const SizedBox width12 = SizedBox(width: 12);
+const SizedBox width14 = SizedBox(width: 14);
+const SizedBox width16 = SizedBox(width: 16);
+const SizedBox width18 = SizedBox(width: 18);
+const SizedBox width20 = SizedBox(width: 20);
+const SizedBox width22 = SizedBox(width: 22);
+const SizedBox width24 = SizedBox(width: 24);
+const SizedBox width26 = SizedBox(width: 26);
+const SizedBox width28 = SizedBox(width: 28);
+const SizedBox width40 = SizedBox(width: 40);
+
+const SizedBox height8 = SizedBox(height: 8);
+const SizedBox height10 = SizedBox(height: 10);
+const SizedBox height12 = SizedBox(height: 12);
+const SizedBox height14 = SizedBox(height: 14);
+const SizedBox height16 = SizedBox(height: 16);
+const SizedBox height18 = SizedBox(height: 18);
+const SizedBox height20 = SizedBox(height: 20);
+const SizedBox height22 = SizedBox(height: 22);
+const SizedBox height24 = SizedBox(height: 24);
+const SizedBox height26 = SizedBox(height: 26);
+const SizedBox height28 = SizedBox(height: 28);
+const SizedBox height30 = SizedBox(height: 30);
+const SizedBox height32 = SizedBox(height: 32);
+const SizedBox height34 = SizedBox(height: 34);
+const SizedBox height36 = SizedBox(height: 36);
+
+const Color coldGray = Color.fromARGB(20, 0, 0, 0);
+const Color cold2Gray = Color.fromARGB(30, 0, 0, 0);
+const Color lightGray = Color.fromARGB(5, 0, 0, 0);
+const Color boldGray = Color.fromARGB(100, 0, 0, 0);
+const Color bold2Gray = Color.fromARGB(430, 0, 0, 0);
+const Color staticBlue = Color(0xff3797EF);
+const Color white = Colors.white;
+const Color black = Colors.black;
+const Color red = Colors.red;
+const Color blue = Colors.blue;
