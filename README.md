@@ -1,6 +1,6 @@
 # Project-3
 
-## my project was cloning instagram application
+## my project was cloning instagram application in 2 days only
 here are the screenshot for each page and file name:
 
 1- login page => login_page.dart
